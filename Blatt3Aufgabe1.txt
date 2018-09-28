@@ -1,0 +1,8 @@
+Mistakes:
+
+l.3 should be (int n)
+l.5 should be "ergebnis = 1"
+l.7 no curly brackets for while
+l.19 almost the right function name
+l.20 missing "<<"
+l.21 comma --> semicolon

@@ -1,0 +1,6 @@
+Fehler:
+
+15: Kein ;
+15: =+ statt +=
+Summe not initialized to 0
+i not incremented
