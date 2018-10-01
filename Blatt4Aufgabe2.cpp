@@ -49,6 +49,7 @@ double power(double x, double y)
 	}
 }
 
+/*
 int main(int argc, char *argv[])
 {
 	if (argc < 3) {
@@ -64,3 +65,4 @@ int main(int argc, char *argv[])
 	
 	return 0;
 }
+*/
