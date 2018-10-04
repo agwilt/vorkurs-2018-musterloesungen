@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
 #include <limits>
-#include <cmath>
-//#include "Blatt4Aufgabe2.hpp"
+//#include <cmath>
+#include "Blatt4Aufgabe2.hpp"
 
 double zeta(double s)
 {
@@ -11,7 +11,7 @@ double zeta(double s)
 	double sum = 0;
 	double summand = 1;
 	for (unsigned k=1; summand > __DBL_EPSILON__ and k<10e8; ++k) {
-		summand = 1/pow(k, s);
+		summand = 1/power(k, s);
 		sum += summand;
 	}
 
