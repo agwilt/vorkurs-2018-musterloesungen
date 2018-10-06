@@ -15,7 +15,7 @@ int main()
 	std::cin >> y_max;
 
 	try {
-		Rechteck r(x_min, x_max, y_min, y_max);
+		Rechteck<double> r(x_min, x_max, y_min, y_max);
 		
 		r.print();
 		std::cout << r.compute_flaecheninhalt() << std::endl;
